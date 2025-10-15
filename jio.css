@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-image: url("image2.jpg");
+    height: 100vh;
+    background-size: cover;
+    font-size: 5vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    height:20vmin;
+    width: 60vmin;
+   
+    box-shadow: 0 0 1rem rgba(0,0,0,1);
+    font-size: 4vmin;
+    font-style: times;
+    gap: 1.5vim;
+}
+input{
+    height:10vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
